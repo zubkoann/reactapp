@@ -1,0 +1,19 @@
+.App{
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  &-clientList{
+    width: 50%;
+    flex-grow: 1;
+    padding-right: 1rem;
+  }
+  &-clientProfile{
+    width: 50%;
+    background: blanchedalmond;
+    border: 2px solid lightcoral;
+    padding-left: 1rem;
+
+  }
+}
